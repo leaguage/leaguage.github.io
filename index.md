@@ -1,37 +1,150 @@
-## Welcome to GitHub Pages
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" type="text/css" href="css/about.css" />
+		<title>欢乐联盟</title>
+		<link rel="icon" href="img/logo-public.png" type="image/x-icon">
+		<style type="text/css">
+			body {
+				margin: 0;
+				padding: 0;
+				background-color: darkslategray;
+			}
 
-You can use the [editor on GitHub](https://github.com/leaguage/leaguage.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+			.name {
+				width: 100vw;
+				height: 100vh;
+				background-color: darkslategray;
+			}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+			.head {
+				width: 100%;
+				height: 10%;
+				background-color: darkcyan;
+			}
 
-### Markdown
+			.top1 {
+				float: left;
+				width: 15%;
+				height: 100%;
+				background-image: url(img/1.png);
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+			}
 
-```markdown
-Syntax highlighted code block
+			h4 {
+				font-size: 20px;
+				font-weight: 400;
+				text-align: center;
+				color: yellow;
 
-# Header 1
-## Header 2
-### Header 3
+			}
 
-- Bulleted
-- List
+			.top2 {
+				float: left;
+				width: 85%;
+				height: 100%;
+				background-color: #060d19;
+			}
 
-1. Numbered
-2. List
+			ul li {
+				list-style-type: none;
+				font-size: 30px;
+				font-weight: bold;
+				color: yellow;
+				margin-left: 150px;
+				display: inline;
+				line-height: 40px;
+				float: left;
+				letter-spacing: 20px;
+			}
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/leaguage/leaguage.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+			a {
+				text-decoration: none;
+				color: yellow;
+			}
+			
+			.hbody{
+				float: top;
+				width: 100%;
+				height: 80%;
+				background-color: #00aa7f;
+				font-size: 30px;
+				font-weight: 600;
+				color: #FFFFFF;
+				text-align: center;
+			}
+			.footing{
+				width: 100%;
+				height: 10%;
+				background-color: #060d19;
+				color: #FFFF00;
+				text-align: center;
+			}
+			img{
+				width: 200px;
+				height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="name">
+			<div class="head">
+				<div class="top1">
+					<h4><a href="index.html">League of Legends</a></h4>
+				</div>
+				<div class="top2">
+					<ul>
+						<li><a href="xiaomo.html">小莫</a></li>
+						<li><a href="naihe.html">奈何</a></li>
+						<li><a href="mao.html">猫</a></li>
+						<li><a href="longfan.html">小帆</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="hbody">
+				欢迎来到召唤师联盟
+				<div class="slidershow middle">
+				
+					<div class="slides">
+						<input type="radio" name="r" id="r1" checked />
+						<input type="radio" name="r" id="r2" />
+						<input type="radio" name="r" id="r3" />
+						<input type="radio" name="r" id="r4" />
+						<input type="radio" name="r" id="r5" />
+						<div class="slide s1">
+							<img src="img/1.png" alt="">
+						</div>
+						<div class="slide">
+							<img src="img/mao.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="img/naihe.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="img/xiaomo.jpg" alt="">
+						</div>
+						<div class="slide">
+							<img src="img/mao.jpg" alt="">
+						</div>
+				
+						<div class="navigation">
+							<label for="r1" class="bar"></label>
+							<label for="r2" class="bar"></label>
+							<label for="r3" class="bar"></label>
+							<label for="r4" class="bar"></label>
+							<label for="r5" class="bar"></label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footing">
+				copyright: &nbsp; 欢乐联盟
+			</div>
+		</div>
+		<audio src="audio/Free Loop.mp3" autoplay loop>
+			当前浏览器不支持audio
+		</audio>
+	</body>
+</html>
